@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGRC210: Academic Writing II Master Quiz</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="UGRC210: Academic Writing II Master Quiz" />
+    <meta name="description" content="An interactive multiple-choice master quiz with customizable timers, bookmarking, study flashcards, and analytical reports for UGRC 210 Combined Academic Writing II (Week 1 to Week 8)." />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="UGRC210: Academic Writing II Master Quiz" />
+    <meta property="og:description" content="An interactive multiple-choice master quiz with customizable timers, bookmarking, study flashcards, and analytical reports for UGRC 210 Combined Academic Writing II (Week 1 to Week 8)." />
+    <!-- NOTE: Social media crawlers (WhatsApp, Facebook, Twitter, Discord) require absolute URLs. Files in public/ are served from the root /. -->
+    <meta property="og:image" id="og-image-tag" content="https://academic-writing-ii-quiz.ai.studio/public/og_preview.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UGRC210: Academic Writing II Master Quiz" />
+    <meta name="twitter:description" content="An interactive multiple-choice master quiz with customizable timers, bookmarking, study flashcards, and analytical reports for UGRC 210 Combined Academic Writing II (Week 1 to Week 8)." />
+    <meta name="twitter:image" id="twitter-image-tag" content="https://academic-writing-ii-quiz.ai.studio/public/og_preview.jpg" />
+
+    <!-- Dynamic Origin Fallback Script for Custom Domains -->
+    <script>
+      (function() {
+        try {
+          var origin = window.location.origin;
+          // If the app is hosted elsewhere or on a custom domain, update the OG URLs dynamically for modern crawlers
+          if (!origin.includes('localhost') && !origin.includes('127.0.0.1')) {
+            var ogImg = document.getElementById('og-image-tag');
+            if (ogImg && !ogImg.getAttribute('content').startsWith(origin)) {
+              ogImg.setAttribute('content', origin + '/public/og_preview.jpg');
+            }
+            var twImg = document.getElementById('twitter-image-tag');
+            if (twImg && !twImg.getAttribute('content').startsWith(origin)) {
+              twImg.setAttribute('content', origin + '/public/og_preview.jpg');
+            }
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Academic Writing II Quiz",
+  "description": "An interactive multiple-choice master quiz with customizable timers and interactive pie reports for UGRC 210 Combined Academic Writing II (Week 1 to Week 8).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
